@@ -23,7 +23,7 @@ const minutes = String(now.getMinutes()).padStart(2, '0');
 const formattedDateTime = `${year}-${month}-${day}_${hours}-${minutes}`;
 
 
-// Очистим файл перед стартом
+// Очистим файл перед стартом 
 const baseName = 'contacts';
 const fileName = `${baseName}_${formattedDateTime}.txt`;
 
