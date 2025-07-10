@@ -10,7 +10,7 @@ const client = new Client({
     }
 });
 
-// Получаем текущую дату и время
+//Get Date and Time
 const now = new Date();
 
 const year = now.getFullYear();
